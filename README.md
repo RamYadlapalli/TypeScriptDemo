@@ -67,3 +67,7 @@ Function Overloading:
 1. Can have different types, but type definition can be Same
 
 Interfaces:
+ 
+Interfaces for funtion types:
+
+1. We can use interfaces to give function types names
