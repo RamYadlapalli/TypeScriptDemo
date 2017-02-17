@@ -5,5 +5,11 @@ interface Employee{
     Name: string;
     Desg: Designation;
     Ext?: number;
+    PII?: PersonalInformation;
 }
-export {Employee}
+
+interface PersonalInformation{
+    (name: string):void
+}
+
+export {Employee, PersonalInformation}

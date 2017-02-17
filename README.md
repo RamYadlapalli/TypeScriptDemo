@@ -24,7 +24,7 @@ Basic DataTypes:
 4. Array 
 5. Enum
 6. Any  
-7. Void - Not a tyoe, specifies absence of a type
+7. Void - Not a type, specifies absence of a type
 
 Enums:  
 enum Category {Biography, Poetry, Fiction};//0,1,2
@@ -56,7 +56,7 @@ Arrow Functions:
 2. On it lefts takes paramters and right sode contians the body of the function 
    Ex: let arr = strArray.filter(emp => emp.Name ==="Test1");
 
-Function Types -- Like Delegates:
+Function Types -- Like Delegates in C#:
 
 1. Combination of parameter types and return type
 
@@ -77,7 +77,10 @@ Function Overloading:
 1. Can have different types, but type definition can be Same
 
 Interfaces:
+
+ One of TypeScript’s core principles is that type-checking focuses on the shape that values have. This is sometimes called “duck typing” or “structural subtyping”. In TypeScript, interfaces fill the role of naming these types, and are a powerful way of defining contracts within your code as well as contracts with code outside of your project.
  
 Interfaces for funtion types:
 
 1. We can use interfaces to give function types names
+
