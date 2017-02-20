@@ -37,4 +37,10 @@ var newEmp = {
 };
 //classes
 var newCompany = new classes_1.Company("Company1", "Banglore", 123);
-console.log(newCompany.RegdId);
+//newCompany.email ="a@gmail.com"; //Error as it is a private field 
+newCompany.showCompany();
+newCompany.code = "asdfg";
+console.log(newCompany.RegdId + newCompany.code);
+var newBranch = new classes_1.Branch("TestCompnay", "India", 1234, "Banglore");
+newBranch.showCompany();
+//# sourceMappingURL=TypeScriptAdvanceConcepts.js.map

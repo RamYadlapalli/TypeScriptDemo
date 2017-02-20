@@ -79,8 +79,47 @@ Function Overloading:
 Interfaces:
 
  One of TypeScript’s core principles is that type-checking focuses on the shape that values have. This is sometimes called “duck typing” or “structural subtyping”. In TypeScript, interfaces fill the role of naming these types, and are a powerful way of defining contracts within your code as well as contracts with code outside of your project.
- 
+
 Interfaces for funtion types:
 
-1. We can use interfaces to give function types names
+Interfaces are capable of describing the wide range of shapes that JavaScript objects can take. In addition to describing an object with properties, interfaces are also capable of describing function types.
+
+Extending Interfaces:
+
+Interfaces can be extended from other interfaces 
+
+Classes:
+
+1. Template for creating objects
+2. Provides state storage and behavior 
+3. Encapsulates resusable functionality 
+4. Through Classes Typescript adds Object Oreiented features to JS
+
+    Constructors:
+
+    1. Method named "constructor" - maximum of one per class 
+    2. We can use optional parameters to call different ways  
+    3. Executed by using a new keyword 
+    
+    Properties and Methods:
+
+    1. Public properties 
+    2. Static Properties  - Store data specofoc to the class not to the instances of the class 
+
+    Access Modifiers:
+
+    1. By default "Public" will be applied in TS 
+    2. Private - Only in the class 
+    3. Protected
+    
+    Extending classes with Inheritence
+
+    Abstract classes
+
+    Class Expressions: 
+
+    Another ES2015 featyre that TypeScript supports. Using class expressions we can omit the class name while creating the classes.
+
+
+
 

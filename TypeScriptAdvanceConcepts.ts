@@ -1,5 +1,6 @@
 import {Designation} from "./enums"
 import {Employee,PersonalInformation} from "./interfaces"
+import {Company,Branch} from "./classes"
 
 //interfaces
 function GetAllEmployees():Employee[]{
@@ -49,3 +50,13 @@ let newEmp: contractEmployee = {
     contractMonths:3,
     Name: "TestCE"
 }
+
+//classes
+let newCompany = new Company("Company1","Banglore",123);
+//newCompany.email ="a@gmail.com"; //Error as it is a private field 
+newCompany.showCompany();
+newCompany.code="asdfg";
+console.log(newCompany.RegdId+ newCompany.code);
+
+let newBranch= new Branch("TestCompnay","India",1234,"Banglore");
+newBranch.showCompany();

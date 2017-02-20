@@ -4,12 +4,7 @@
     "version": "0.1.0",
     "command": "tsc",
     "isShellCommand": true,
-    "args": ["TypeScriptConcepts.ts",
-             "--outDir", "js",
-             "--sourceMap",
-             "--watch",
-             "--module","commonjs"
-             ],
+    "args": ["--target", "ES5","--outDir","js","--sourceMap","TypeScriptConcepts.ts","TypeScriptAdvanceConcepts.ts","--watch"],
     "showOutput": "silent",
     "problemMatcher": "$tsc"
 }
