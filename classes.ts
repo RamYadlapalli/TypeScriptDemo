@@ -28,4 +28,7 @@ class Branch extends Company{
         this.branchLocation=location;
     }
 }
+
+
+
 export{Company,Branch};
